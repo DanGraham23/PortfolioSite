@@ -10,13 +10,13 @@ export default function Footer(){
             <ul className='footer-socials'>
                 <li className='gh'><a href='https://github.com/DanGraham23'
                 target='_blank'
-                rel="noopener noreferrer"><AiFillGithub /></a></li>
+                rel="noopener noreferrer"><AiFillGithub aria-label="github"/></a></li>
                 <li className='ld'><a href='https://www.linkedin.com/in/danielgraham23/'
                 target='_blank'
-                rel="noopener noreferrer"><AiFillLinkedin /></a></li>
+                rel="noopener noreferrer"><AiFillLinkedin aria-label="linkedin"/></a></li>
                 <li className='rm'><a download={true}
                 href={Resume}
-                rel="noopener noreferrer"><AiOutlineFileWord /></a></li>
+                rel="noopener noreferrer"><AiOutlineFileWord aria-label="resume"/></a></li>
             </ul>
         </div>
     )
