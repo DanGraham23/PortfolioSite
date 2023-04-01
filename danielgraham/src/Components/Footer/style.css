@@ -7,6 +7,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 30px;
+    font-size: 24px;
 }
 
 .footer-header{
@@ -15,7 +17,32 @@
 
 .footer-socials{
     margin: 0;
-    display: flex;
+    padding: 0;
     list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 30px;
+}
+
+.gh:hover{
+    color: green;
+}
+
+.ld:hover{
+    color: #0077B5;
+}
+
+.rm:hover{
+    color: #ff9900;
+}
+
+.fname:hover{
+    color: #006747;
+    cursor: default;
+}
+
+.lname:hover{
+    color: #FFC20F;
+    cursor: default;
 }

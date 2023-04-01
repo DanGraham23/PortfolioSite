@@ -3,4 +3,18 @@
     background-color: var(--primary-off-white);
     height: 500px;
     padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.home-header{
+    margin: 0;
+    
+}
+
+.home-subheading{
+    margin: 0;
 }

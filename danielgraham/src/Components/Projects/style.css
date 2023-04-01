@@ -1,6 +1,6 @@
 .projects-container{
     width: 100%;
-    height: 600px;
+    height: 700px;
     background-color: var(--primary-off-white);
     display: flex;
     flex-direction: column;
@@ -10,16 +10,40 @@
 
 .projects{
     width: 100%;
-    height: 400px;
+    height: 450px;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+    gap: 40px;
+}
+
+.project{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    color: var(--primary-light-gray);
+    background-color: var(--primary-off-black);
+    transition: all 0.5s ease;
+}
+
+
+.project:hover{
+    margin-bottom: 60px;
+}
+
+.project-middle{
+    margin-bottom: 80px;
+}
+
+.project-middle:hover{
+    margin-bottom: 160px;
 }
 
 .projects-header{
     display: flex;
     font-size: 24px;
+    font-weight: 700;
 }
 
 .projects-hr{
@@ -29,24 +53,14 @@
     height: 2px;
 }
 
-.project{
-    width: 25%;
-    height: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    color: var(--primary-off-black);
-    background-color: var(--primary-darker-gray);;
-}
-
 .project-img{
     width: 90%;
-    height: 50%;
+    height: 60%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 5%;
-    background-color: var(--primary-off-black);
+    background-color: var(--primary-light-gray);
 }
 
 .project-title{
@@ -58,3 +72,37 @@
 .project-skills{
     margin: 0;
 }
+
+.project1-img{
+    
+    background: url('../../assets/images/react-chat2.JPG') left no-repeat, url('../../assets/images/react-chat3.JPG') right no-repeat;
+    background-size: 50%, 50%;
+}
+
+.project1-img:hover{
+    background-image: url('../../assets/images/react-chat1.JPG');
+    background-size: cover;
+
+}
+
+.project2-img{
+    background-image: url('../../assets/images/sunnyside2.JPG');
+    background-size: cover;
+}
+
+.project2-img:hover{
+    background: url('../../assets/images/sunnyside1.JPG') left no-repeat, url('../../assets/images/sunnyside3.JPG') right no-repeat;
+    background-size: 50%, 50%;
+
+}
+
+.project3-img{
+    background-image: url('../../assets/images/shop-friends1.JPG');
+    background-size: cover;
+}
+
+.project3-img:hover{
+    background-image: url('../../assets/images/shop-friends2.JPG');
+    background-size: cover;
+}
+

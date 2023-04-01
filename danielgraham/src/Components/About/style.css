@@ -1,5 +1,43 @@
 .about-container{
     width: 100%;
     height: 600px;
+    background-color: var(--primary-off-black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-light-gray);
+}
+
+.bio-container{
+    width: 40%;
+    height: 250px;
+    margin-bottom: 50px;
+}
+
+.about-img{
+    float: left;
+    width: 250px;
+    height: 250px;
     background-color: var(--primary-light-gray);
+    border-radius: 100%;
+    shape-outside: circle();
+    margin-right: 20px;
+}
+
+.bio{
+    width: 100%;
+    margin-top: 50px;
+    text-align: justify;
+}
+
+.skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 40%;
+    font-size: 64px;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 20px;
 }

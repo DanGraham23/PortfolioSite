@@ -2,8 +2,8 @@
     position: fixed;
     height: 100px;
     width: 100%;
-    background-color: black;
-    color: white;
+    background-color: var(--primary-off-black);
+    color: var(--primary-off-white);
     display: flex;
     align-items: center;
 }
@@ -23,15 +23,17 @@
 
 .nav-item{
     height: 40px;
-    width: 100px;
+    width: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5px;
+    font-size: 24px;
 }
 
 .nav-item:hover{
-    background-color: white;
-    color: black;
+    background-color: var(--primary-off-white);
+    color: var(--primary-off-black);
     border-radius: 24px;
     cursor: pointer;
 }
