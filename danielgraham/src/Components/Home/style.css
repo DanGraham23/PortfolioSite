@@ -1,0 +1,6 @@
+.home-container{
+    width: 100%;
+    background-color: var(--primary-off-white);
+    height: 500px;
+    padding-top: 100px;
+}

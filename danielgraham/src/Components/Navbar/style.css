@@ -1,3 +1,37 @@
 .navbar-container{
-    display: none;
+    position: fixed;
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-header{
+    margin-left: 200px;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+    margin-right: 200px;
+    margin-left: auto;
+    gap: 20px;
+    
+}
+
+.nav-item{
+    height: 40px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item:hover{
+    background-color: white;
+    color: black;
+    border-radius: 24px;
+    cursor: pointer;
 }
