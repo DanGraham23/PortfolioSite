@@ -15,14 +15,14 @@ export default function About(){
                  </p>
             </div>
             <div className='skills'>
-                <FaReact color='#61DBFB'/>
-                <FaAngular color='#dd1b16'/>
-                <SiTypescript color='#007acc'/>
-                <FaJava color='#5382a1'/>
-                <FaPython color='#FFD43B'/>
-                <FaNodeJs color='#68A063'/>
-                <SiMongodb color='#3FA037'/>
-                <SiPostgresql color='#0064a5'/>
+                <FaReact color='#61DBFB' className='skill'/>
+                <FaAngular color='#dd1b16' className='skill'/>
+                <SiTypescript color='#007acc' className='skill'/>
+                <FaJava color='#5382a1' className='skill'/>
+                <FaPython color='#FFD43B' className='skill'/>
+                <FaNodeJs color='#68A063' className='skill'/>
+                <SiMongodb color='#3FA037' className='skill'/>
+                <SiPostgresql color='#0064a5' className='skill'/>
             </div>
         </div>
     )

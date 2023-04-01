@@ -1,11 +1,23 @@
 import './style.css'
 import {Link} from 'react-scroll';
+import {useState} from 'react';
+import {GiHamburgerMenu} from 'react-icons/gi';
+import {AiOutlineClose} from 'react-icons/ai';
 
 export default function Navbar(){
+    const [toggleMenu, setToggleMenu] = useState(false);
+
+    function toggleNavMenu(){
+        setToggleMenu(!toggleMenu);
+    }
+
     return (
         <div className='navbar-container'>
             <h1 className='nav-header'>DG</h1>
-            <ul className='nav-items'>
+            {!toggleMenu && <GiHamburgerMenu className='hamburger-icon' onClick={toggleNavMenu}/>}
+            {toggleMenu && <AiOutlineClose className='hamburger-icon' onClick={toggleNavMenu}/>}
+            
+            <ul className={`nav-items ${toggleMenu ? "nav-items-mobile" : ""}`}>
                 <Link to="home"
                 offset={-100}
                 smooth={true}>

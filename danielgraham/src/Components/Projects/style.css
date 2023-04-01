@@ -74,15 +74,13 @@
 }
 
 .project1-img{
-    
-    background: url('../../assets/images/react-chat2.JPG') left no-repeat, url('../../assets/images/react-chat3.JPG') right no-repeat;
-    background-size: 50%, 50%;
+    background-image: url('../../assets/images/react-chat1.JPG');
+    background-size: cover;
 }
 
 .project1-img:hover{
-    background-image: url('../../assets/images/react-chat1.JPG');
-    background-size: cover;
-
+    background: url('../../assets/images/react-chat2.JPG') left no-repeat, url('../../assets/images/react-chat3.JPG') right no-repeat;
+    background-size: 50%, 50%;
 }
 
 .project2-img{
@@ -106,3 +104,78 @@
     background-size: cover;
 }
 
+
+@media screen and (max-width: 1200px) {
+    .projects-container{
+        height: 1600px; 
+    }
+    
+    .projects{
+        width: 80%;
+        height: 90%;
+        display: flex; 
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .project{
+        width: 60%;
+        height: 450px;
+    }
+
+    .project-title{
+        font-size: 26px;
+    }
+
+    .project-skills{
+        font-size: 16px;
+    }
+
+    .project:hover{
+        margin-bottom: 0px;
+    }
+
+    .project-middle{
+        margin-bottom: 0px;
+    }
+
+    .project1-img{
+        background-image: url('../../assets/images/react-chat1.JPG');
+        background-size: cover;
+    }
+    
+}
+
+@media screen and (max-width: 750px) {
+    
+    .projects-container{
+        height: 1400px;
+    }
+    
+    .projects-hr{
+        width: 30%;
+    }
+
+    .project{
+        width: 80%;
+        height: 400px;
+    }
+
+    .project-img{
+        height: 50%;
+    }
+
+    .project-title{
+        font-size: 24px;
+    }
+    .project-skills{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .project{
+        width: 100%;
+    }
+}
