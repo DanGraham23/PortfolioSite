@@ -24,12 +24,12 @@ export default function Projects(){
                     <h3 className='project-skills'>React, HTML, CSS, Figma, Responsive Design</h3>
                 </a>
                 <a className='project'
-                href='https://github.com/DanGraham23/ShopFriends' 
+                href='https://github.com/DanGraham23/ShopFriendsTs' 
                 target="_blank"
                 rel="noopener noreferrer">
                     <div className='project-img project3-img'></div>
                     <h1 className='project-title'>ShopFriends</h1>
-                    <h3 className='project-skills'>React, Redux, Django, PostgreSQL</h3>
+                    <h3 className='project-skills'>React, TypeScript, Redux, NodeJS, ExpressJS, PostgreSQL</h3>
                 </a>
             </div>
         </div>
