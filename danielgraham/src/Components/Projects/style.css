@@ -100,8 +100,8 @@
 }
 
 .project3-img:hover{
-    background-image: url('../../assets/images/shop-friends2.JPG');
-    background-size: cover;
+    background: url('../../assets/images/shop-friends2.JPG') left no-repeat, url('../../assets/images/shop-friends3.JPG') right no-repeat;
+    background-size: 50%, 50%;
 }
 
 

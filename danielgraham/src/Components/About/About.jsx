@@ -10,7 +10,7 @@ export default function About(){
                 <img src={DanGraham} alt="daniel-graham" className='about-img' />
                 <p className='bio'>I am a software developer studying computer science at Siena College in Loudonville, NY.
                     My main interests are in the areas of web and full stack development.
-                    I love learning languages and frameworks, with some of my favorite being React, TypeScript, Java, and Angular. I am also extremely familiar with Agile scrum methodology, along with DevOps and Version Control. Feel free to contact me over email or LinkedIn!
+                    I love learning languages and frameworks, with some of my favorite being React, TypeScript, Java, ExpressJS and NodeJS. I am also extremely familiar with Agile scrum methodology, along with DevOps and Version Control. Feel free to contact me over email or LinkedIn!
 
                  
                  </p>
