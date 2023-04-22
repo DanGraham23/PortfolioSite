@@ -8,11 +8,7 @@ export default function About(){
         <div id="about" className='about-container'>
             <div className='bio-container'>
                 <img src={DanGraham} alt="daniel-graham" className='about-img' />
-                <p className='bio'>I am a software developer studying computer science at Siena College in Loudonville, NY.
-                    My main interests are in the areas of web and full stack development.
-                    I love learning languages and frameworks, with some of my favorite being React, TypeScript, Java, ExpressJS and NodeJS. I am also extremely familiar with Agile scrum methodology, along with DevOps and Version Control. Feel free to contact me over email or LinkedIn!
-
-                 
+                <p className='bio'>I’m a passionate, enthusiastic, and hard-working full stack developer. I am currently in my last semester pursuing my B.S. in Computer Science at Siena College in Loudonville, NY. I love full stack development, and I have significant experience using both MERN/PERN stacks, as well as Angular and Java Spring Boot. I am also familiar with Agile methodology and version control. Feel free to contact me over email or LinkedIn!
                  </p>
             </div>
             <div className='skills'>

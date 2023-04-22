@@ -27,6 +27,30 @@
     transition: all 0.5s ease;
 }
 
+.demo-link{
+    height: 40px;
+    width: 60px;
+    
+}
+
+.demo-btn{
+    height: inherit;
+    width: inherit;
+    background-color: var(--primary-off-black);
+    color: var(--primary-off-white);
+    border: 2px solid var(--primary-off-white);
+    outline: none;
+    font-family: inherit;
+    font-size: 16px;
+}
+
+.demo-btn:hover{
+    height: inherit;
+    width: inherit;
+    background-color: var(--primary-off-white);
+    color: var(--primary-off-black);
+    cursor: pointer;
+}
 
 .project:hover{
     margin-bottom: 60px;
@@ -64,9 +88,20 @@
 }
 
 .project-title{
-    margin: 0;
     margin-bottom: 5%;
-    
+}
+
+.project-title-middle{
+    margin: 0;
+}
+
+.project-title-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
 }
 
 .project-skills{
@@ -128,6 +163,10 @@
         font-size: 26px;
     }
 
+    .project-title-middle{
+        font-size: 26px;
+    }
+
     .project-skills{
         font-size: 16px;
     }
@@ -169,6 +208,11 @@
     .project-title{
         font-size: 24px;
     }
+
+    .project-title-middle{
+        font-size: 24px;
+    }
+
     .project-skills{
         font-size: 16px;
     }
