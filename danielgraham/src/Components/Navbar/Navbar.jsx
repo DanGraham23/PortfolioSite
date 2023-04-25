@@ -16,7 +16,7 @@ export default function Navbar(){
             <h1 className='nav-header'>DG</h1>
             {!toggleMenu && <GiHamburgerMenu className='hamburger-icon' onClick={toggleNavMenu}/>}
             {toggleMenu && <AiOutlineClose className='hamburger-icon' onClick={toggleNavMenu}/>}
-            
+            {toggleMenu && <div className='triangle'></div>}
             <ul className={`nav-items ${toggleMenu ? "nav-items-mobile" : ""}`}>
                 <Link to="home"
                 offset={-100}

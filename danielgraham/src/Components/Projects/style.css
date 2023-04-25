@@ -1,225 +1,231 @@
 .projects-container{
-    width: 100%;
-    height: 700px;
-    background-color: var(--primary-off-white);
+    height: 1800px;
+    color: var(--primary-white);
+    background-color: var(--primary-blue); 
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
-}
-
-.projects{
-    width: 100%;
-    height: 450px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
-    gap: 40px;
-}
-
-.project{
-    width: 30%;
-    height: 100%;
-    text-align: center;
-    color: var(--primary-light-gray);
-    background-color: var(--primary-off-black);
-    transition: all 0.5s ease;
-}
-
-.demo-link{
-    height: 40px;
-    width: 60px;
-    
-}
-
-.demo-btn{
-    height: inherit;
-    width: inherit;
-    background-color: var(--primary-off-black);
-    color: var(--primary-off-white);
-    border: 2px solid var(--primary-off-white);
-    outline: none;
-    font-family: inherit;
-    font-size: 16px;
-}
-
-.demo-btn:hover{
-    height: inherit;
-    width: inherit;
-    background-color: var(--primary-off-white);
-    color: var(--primary-off-black);
-    cursor: pointer;
-}
-
-.project:hover{
-    margin-bottom: 60px;
-}
-
-.project-middle{
-    margin-bottom: 80px;
-}
-
-.project-middle:hover{
-    margin-bottom: 160px;
+    gap: 100px;
 }
 
 .projects-header{
+    text-align: center;
+}
+
+.project-right{
+    width:  70%;
+    height: 500px;
     display: flex;
-    font-size: 24px;
-    font-weight: 700;
-}
-
-.projects-hr{
-    width: 40%;
-    background-color: var(--primary-darker-gray);
-    border: 0 none;
-    height: 2px;
-}
-
-.project-img{
-    width: 90%;
-    height: 60%;
+    align-items: center;
+    justify-content: flex-end;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    background-color: var(--primary-light-gray);
+    opacity: 0;
+    gap: 10px;
 }
 
-.project-title{
-    margin-bottom: 5%;
+.project-left{
+    width:  70%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: auto;
+    margin-right: auto;
+    opacity: 0;
+    gap: 10px;
 }
 
-.project-title-middle{
-    margin: 0;
+.project-slide-right{
+    animation: slideRight 1.5s ease-in-out forwards;
+    opacity: 1;
 }
 
-.project-title-container{
+.project-slide-left{
+    animation: slideLeft 1.5s ease-in-out forwards;
+    opacity: 1;
+}
+
+@keyframes slideLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-175px);
+    }
+    to {
+      opacity: 1; 
+      transform: translateX(0%); 
+    }
+  }
+
+  
+@keyframes slideRight {
+    from {
+      opacity: 0;
+      transform: translateX(175px);
+    }
+    to {
+      opacity: 1; 
+      transform: translateX(0%); 
+    }
+  }
+
+.project-img{
+    width: 50%;
+    height: 80%;
+    border: 2px solid var(--primary-white);
+}
+
+.project-info{
+    width: 30%;
+}
+
+.project-info-title{
+    font-size: 32px;
+}
+
+.project-info-descr{
+    font-size: 18px;
+}
+
+.project-info-techs{
+    font-size: 18px;
+}
+
+.project-live-button{
+    width: 80px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: var(--primary-white);
+    color: var(--primary-blue);
+}
+
+.project-live-button:hover{
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    border: 2px solid var(--primary-white);
+    cursor: pointer;
+}
+
+.project-info-icons{
     display: flex;
     gap: 20px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 5%;
 }
 
-.project-skills{
-    margin: 0;
+.icons-right{
+    justify-content: flex-end;
 }
 
-.project1-img{
-    background-image: url('../../assets/images/react-chat1.JPG');
-    background-size: cover;
+.icons-left{
+    justify-content: flex-start;
 }
 
-.project1-img:hover{
-    background: url('../../assets/images/react-chat2.JPG') left no-repeat, url('../../assets/images/react-chat3.JPG') right no-repeat;
-    background-size: 50%, 50%;
+.icon-green:hover{
+    color: green;
 }
 
-.project2-img{
-    background-image: url('../../assets/images/sunnyside2.JPG');
-    background-size: cover;
+.icon-red:hover{
+    color: red;
 }
 
-.project2-img:hover{
-    background: url('../../assets/images/sunnyside1.JPG') left no-repeat, url('../../assets/images/sunnyside3.JPG') right no-repeat;
-    background-size: 50%, 50%;
-
+.project-info-icon{
+    font-size: 32px;
+    cursor: pointer;
 }
 
-.project3-img{
-    background-image: url('../../assets/images/shop-friends1.JPG');
-    background-size: cover;
+.text-right{
+    text-align: right;
 }
 
-.project3-img:hover{
-    background: url('../../assets/images/shop-friends2.JPG') left no-repeat, url('../../assets/images/shop-friends3.JPG') right no-repeat;
-    background-size: 50%, 50%;
+.text-left{
+    text-align: left;
 }
-
 
 @media screen and (max-width: 1200px) {
-    .projects-container{
-        height: 1600px; 
-    }
-    
-    .projects{
-        width: 80%;
-        height: 90%;
-        display: flex; 
-        flex-direction: column;
-        margin-left: auto;
-        margin-right: auto;
-    }
 
-    .project{
+    .project-img{
         width: 60%;
-        height: 450px;
     }
 
-    .project-title{
-        font-size: 26px;
-    }
+    .project-right{
+        width:  85%;
 
-    .project-title-middle{
-        font-size: 26px;
-    }
-
-    .project-skills{
-        font-size: 16px;
-    }
-
-    .project:hover{
-        margin-bottom: 0px;
-    }
-
-    .project-middle{
-        margin-bottom: 0px;
-    }
-
-    .project1-img{
-        background-image: url('../../assets/images/react-chat1.JPG');
-        background-size: cover;
     }
     
+    .project-left{
+        width:  85%;
+    }
+
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 1024px) {
+    .project-right{
+        width:  90%;
+
+    }
     
+    .project-left{
+        width:  90%;
+    }
+    
+    .project-info-title{
+        font-size: 28px;
+    }
+    
+    .project-info-descr{
+        font-size: 16px;
+    }
+    
+    .project-info-techs{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px) {
     .projects-container{
         height: 1400px;
-    }
-    
-    .projects-hr{
-        width: 30%;
+        gap: 0px;
     }
 
-    .project{
-        width: 80%;
-        height: 400px;
+    .project-right{
+        width:  95%;
+
+    }
+    
+    .project-left{
+        width:  95%;
     }
 
     .project-img{
-        height: 50%;
+        height: 60%;
     }
 
-    .project-title{
-        font-size: 24px;
+    .project-info-title{
+        font-size: 22px;
     }
-
-    .project-title-middle{
-        font-size: 24px;
+    
+    .project-info-descr{
+        font-size: 14px;
     }
-
-    .project-skills{
-        font-size: 16px;
+    
+    .project-info-techs{
+        font-size: 14px;
     }
 }
 
-@media screen and (max-width: 500px) {
-    .project{
-        width: 100%;
+@media screen and (max-width: 480px) {
+    .project-img{
+        height: 45%;
+    }
+
+    .project-info-title{
+        font-size: 16px;
+    }
+    
+    .project-info-descr{
+        font-size: 11px;
+    }
+    
+    .project-info-techs{
+        font-size: 10px;
     }
 }

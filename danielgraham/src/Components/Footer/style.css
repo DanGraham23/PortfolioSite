@@ -1,7 +1,7 @@
 .footer-container{
     width: 100%;
-    background-color: var(--primary-off-black);
-    color: var(--primary-off-white);
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
     height: 200px;   
     display: flex;
     flex-direction: column;

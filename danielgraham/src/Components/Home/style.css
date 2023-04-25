@@ -1,7 +1,8 @@
 .home-container{
     width: 100%;
-    background-color: var(--primary-off-white);
-    height: 500px;
+    background-color: var(--primary-blue);
+    color: var(--primary-white);
+    height: 100vh;
     padding-top: 100px;
     display: flex;
     flex-direction: column;

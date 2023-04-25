@@ -7,7 +7,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: var(--primary-off-white);
+  background-color: var(--primary-blue);
+  overflow-x: hidden;
 }
 
 code {
@@ -16,14 +17,19 @@ code {
 }
 
 :root{
-  --primary-off-white: #efefef;
-  --primary-off-black: #121212;
-  --primary-light-gray: #d2d2d2;
-  --primary-gray: #bdbdbd;
-  --primary-darker-gray: #aaaaaa;
+  --primary-white: #ffffff;
+  --primary-blue: #4c00ff;
 }
 
 a{
   text-decoration: none;
   color: inherit;
+}
+
+.hr-div{
+  width: 80%;
+  height: 1px;
+  background-color: var(--primary-white);
+  margin-left: auto;
+  margin-right: auto;
 }
