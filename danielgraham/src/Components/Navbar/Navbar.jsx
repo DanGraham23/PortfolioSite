@@ -12,7 +12,7 @@ export default function Navbar(){
     }
 
     return (
-        <div className='navbar-container'>
+        <nav className='navbar-container'>
             <h1 className='nav-header'>DG</h1>
             {!toggleMenu && <GiHamburgerMenu className='hamburger-icon' onClick={toggleNavMenu}/>}
             {toggleMenu && <AiOutlineClose className='hamburger-icon' onClick={toggleNavMenu}/>}
@@ -20,25 +20,29 @@ export default function Navbar(){
             <ul className={`nav-items ${toggleMenu ? "nav-items-mobile" : ""}`}>
                 <Link to="home"
                 offset={-100}
-                smooth={true}>
-                <li className='nav-item'>home</li>
+                smooth={true}
+                className='nav-item'>
+                <li >home</li>
                 </Link>
                 <Link to="about"
                 offset={-100}
-                smooth={true}>
-                <li className='nav-item'>about</li>
+                smooth={true}
+                className='nav-item'>
+                <li>about</li>
                 </Link>
                 <Link to="projects"
                 offset={-100}
-                smooth={true}>
-                <li className='nav-item'>projects</li>
+                smooth={true}
+                className='nav-item'>
+                <li >projects</li>
                 </Link>
                 <Link to="contact"
                 offset={-100}
-                smooth={true}>
-                <li className='nav-item'>contact</li>
+                smooth={true}
+                className='nav-item'>
+                <li>contact</li>
                 </Link>
             </ul>
-        </div>
+        </nav>
     )
 }

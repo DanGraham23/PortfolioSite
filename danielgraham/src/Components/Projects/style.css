@@ -4,7 +4,7 @@
     background-color: var(--primary-blue); 
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    gap: 50px;
 }
 
 .projects-header{
@@ -93,10 +93,12 @@
 .project-live-button{
     width: 80px;
     height: 40px;
-    border: none;
-    outline: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--primary-white);
     color: var(--primary-blue);
+    border: 2px solid transparent;
 }
 
 .project-live-button:hover{
@@ -183,12 +185,10 @@
 @media screen and (max-width: 768px) {
     .projects-container{
         height: 1400px;
-        gap: 0px;
     }
 
     .project-right{
         width:  95%;
-
     }
     
     .project-left{
@@ -196,7 +196,7 @@
     }
 
     .project-img{
-        height: 60%;
+        height: 70%;
     }
 
     .project-info-title{
@@ -213,8 +213,20 @@
 }
 
 @media screen and (max-width: 480px) {
+    .projects-container{
+        height: 1200px;
+    }
+
     .project-img{
-        height: 45%;
+        height: 65%;
+    }
+
+    .project-right{
+        height: 300px;
+    }
+    
+    .project-left{
+        height: 300px;
     }
 
     .project-info-title{

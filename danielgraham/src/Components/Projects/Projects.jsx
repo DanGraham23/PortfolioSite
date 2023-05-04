@@ -1,5 +1,5 @@
 import './style.css';
-import shopfriends from '../../assets/images/shop-friends1.jpg';
+import shopfriends from '../../assets/images/shop-friends1.JPG';
 import sunnyside from '../../assets/images/sunnyside1.JPG';
 import chatapp from '../../assets/images/react-chat1.JPG';
 import { useEffect } from 'react';
@@ -91,11 +91,11 @@ export default function Projects(){
                     <h3 className='project-info-techs'>React, HTML, CSS, Figma, Responsive Design</h3>
                     <p className='project-info-descr'>Sunnyside is a mock company website</p>
                     <div className='project-info-icons icons-right'>
-                        <a className='project' 
+                        <a className='project project-live-button' 
                         href='https://dangraham23.github.io/Sunnyside/' 
                         target="_blank"
                         rel="noopener noreferrer">
-                            <button className='project-live-button' aria-label='sunnyside-site-link'>Live!</button>
+                            Live!
                         </a>
                     </div>
                 </div>

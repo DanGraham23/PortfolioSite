@@ -30,6 +30,7 @@
     justify-content: center;
     padding-bottom: 5px;
     font-size: 24px;
+    outline: 1px solid (--primary-white);
 }
 
 .nav-item:hover{
@@ -37,6 +38,7 @@
     color: var(--primary-blue);
     border-radius: 24px;
     cursor: pointer;
+    
 }
 
 .hamburger-icon{
@@ -81,7 +83,7 @@
         border-bottom: 40px solid var(--primary-white);
         border-left: 40px solid transparent;
         right: 100px;
-        top: 60px
+        top: 60px;
     }
 
     .nav-item:hover{
