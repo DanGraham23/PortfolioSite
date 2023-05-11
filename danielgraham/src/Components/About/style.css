@@ -10,7 +10,7 @@
 }
 
 .bio-container{
-    width: 40%;
+    width: 43%;
     height: 250px;
     margin-bottom: 100px;
 }
@@ -46,26 +46,36 @@
 
 @media screen and (max-width: 1450px){
     .bio-container{
-        width: 50%;
+        width: 52%;
     }
 }
 
-@media screen and (max-width: 1150px){
+@media screen and (max-width: 1200px){
     .bio-container{
         width: 60%;
     }
 }
 
-@media screen and (max-width: 950px){
-    
+@media screen and (max-width: 1024px){
+    .bio-container{
+        width: 68%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .bio-container{
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 768px){
     .bio-container{
         display: flex;
         flex-direction: column;
-        width: 75%;
+        width: 80%;
         height: 65%;
         align-items: center;
         justify-content: center;
-        font-size: 16px;
         gap: 20px;
         margin-bottom: 0px;
     }
@@ -73,15 +83,13 @@
     .about-img{
         width: 175px;
         height: 175px;
-        background-color: var(--primary-light-gray);
-        border-radius: 100%;
     }
     
     .bio{
         text-align: center;
         height: 50%;
         margin-top: 0;
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .skills{
@@ -96,4 +104,28 @@
         margin-bottom: 10px;
         text-align: center;
     }
+}
+
+@media screen and (max-width: 480px){
+    
+    .bio{
+        font-size: 14px;
+    }
+
+    .skills{
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width: 340px){
+
+    .bio{
+        font-size: 13px;
+    }
+
+    .skills{
+        font-size: 30px;
+    }
+
 }

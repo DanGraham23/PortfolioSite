@@ -8,7 +8,7 @@ export default function Footer(){
         <footer id="contact" className='footer-container'>
             <h2 className='footer-header'><span className='fname'>Daniel </span><span className='lname'>Graham</span></h2>
             <ul className='footer-socials'>
-                <li className='em'><a href='mailto:d20grah@siena.edu'
+                <li className='em'><a href='mailto:contact@dangraham.dev'
                 target='_blank'
                 rel="noopener noreferrer"><AiFillMail aria-label="email"/></a></li>
                 <li className='gh'><a href='https://github.com/DanGraham23'
