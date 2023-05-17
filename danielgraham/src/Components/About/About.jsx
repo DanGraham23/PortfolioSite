@@ -9,7 +9,7 @@ export default function About(){
         <div id="about" className='about-container'>
             <div className='bio-container'>
                 <img src={DanGraham} alt="daniel-graham" className='about-img' />
-                <p className='bio'>I’m a passionate, enthusiastic, and hard-working full stack developer. I recently graduated with a B.S. in Computer Science from Siena College in Loudonville, NY. I am familiar with a wide variety of tools and technologies, along with Agile methodology. In addition to this, I love working towards a more inclusive web! I have been learning much about accessibility standards such as WCAG and ADA. Feel free to contact me over email or LinkedIn
+                <p className='bio'>I’m a passionate, enthusiastic, and hard-working full stack developer. I recently graduated with a B.S. in Computer Science from Siena College in Loudonville, NY. I am familiar with a wide variety of tools and technologies, along with Agile methodology. In addition to this, I love working towards a more inclusive web! I have been learning much about accessibility standards such as WCAG and ADA. Feel free to contact me over email or LinkedIn!
                  </p>
             </div>
             <div className='skills'>
