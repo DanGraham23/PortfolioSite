@@ -83,10 +83,10 @@ export default function Projects(){
                     </div>
                     
                 </div>
-                <img src={meetup} alt="chat-application-chat-logs" className='project-img'/>
+                <img src={meetup} alt="meet-up-dashboard-calendar-view-with-event-listed" className='project-img'/>
             </div>
             <div className='project project-left'>
-                <img src={chatapp} alt="meetup-dashboard-calendar-view" className='project-img'/>
+                <img src={chatapp} alt="chat-application-chat-logs" className='project-img'/>
                 <div className='project-info text-right'>
                     <h1 className='project-info-title'>Chat Application</h1>
                     <h3 className='project-info-techs'>React, Node, Express, MongoDB</h3>
