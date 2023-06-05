@@ -1,5 +1,5 @@
 .projects-container{
-    height: 1800px;
+    height: 2400px;
     color: var(--primary-white);
     background-color: var(--primary-blue); 
     display: flex;
@@ -184,7 +184,7 @@
 
 @media screen and (max-width: 768px) {
     .projects-container{
-        height: 1400px;
+        height: 1700px;
     }
 
     .project-right{
