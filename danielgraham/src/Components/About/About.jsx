@@ -9,7 +9,7 @@ export default function About(){
         <div id="about" className='about-container'>
             <div className='bio-container'>
                 <img src={DanGraham} alt="daniel-graham" className='about-img' />
-                <p className='bio'>I’m a passionate, enthusiastic, and hard-working full stack developer. I am currently a software developer at Hexagon Asset Lifecycle Intelligence. I am familiar with a wide variety of tools and technologies, along with Agile methodology. In addition to this, I love working towards a more inclusive web! I have been learning much about accessibility standards such as WCAG and ADA. Feel free to contact me over email or LinkedIn!
+                <p className='bio'>I’m a passionate, enthusiastic, and hard-working software developer. I currently work at Hexagon Asset Lifecycle Intelligence as a software developer. I mainly work with Angular, TypeScript, and Azure. In addition to this, I have experience using a wide variety of other tools and technologies such as React, Express, and Java Spring Boot. Feel free to contact me over email or LinkedIn!
                  </p>
             </div>
             <div className='skills'>
